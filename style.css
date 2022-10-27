@@ -73,7 +73,7 @@ p{
 }
 
 input{
-    border-color: gray;
+    border-color: black;
     box-shadow: 2px 3px #888888;
     width: 170%;
 }
@@ -87,6 +87,7 @@ input{
     flex-direction: column;
     margin-top: 6%;
     gap: 10%;
+    flex-wrap: 1;
 
 }
 #login{
