@@ -18,8 +18,7 @@ body{
     margin: 0;
 }
 #container{
-    height:100vh;
-    width: 100vw;
+    
     display: flex;
     justify-content: center;
     color: var(--txtcolor1)
@@ -54,10 +53,13 @@ body{
     background-color: var(--bgcolor1);
     padding-left: 2%;
     padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 #welcome {
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 
@@ -69,7 +71,7 @@ p{
 }
 
 #formcont{
-    margin-top: 16%;
+    margin-top: 5%;
 }
 
 input{
@@ -92,6 +94,7 @@ input{
 }
 #login{
     margin-top: 16%;
+    margin-bottom: 6%;
 }
 
 button{
